@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarRento - Available Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-body {
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .card-img-top {
+            transition: transform 0.3s;
+        }
+
+        .card:hover .card-img-top {
+            transform: scale(1.1);
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">CarRento</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="carsList.html">Buy Cars</a>
+                    </li>
+                </ul>
+
+                <div class="ml-auto mx-3">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Register
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="userRegister.html">User Registration</a></li>
+                                <li><a class="dropdown-item" href="agencyRegister.html">Agency Registration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> <br><br><br><br>
+
+    <h2 style="text-align: center;">Available Cars To Rent</h2><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/image1.jpg" class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra Thar</h5>
+                        <p class="card-text">The Mahindra Thar is a rugged and iconic off-road SUV manufactured by Mahindra & Mahindra, an Indian automotive company. Originally launched in 2010, the Thar has undergone several updates and iterations over the years.</p>
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/image2.jpg" class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Lamborghini Aventador</h5>
+                        <p class="card-text">The Lamborghini Aventador is a mid-engine sports car produced by the Italian automotive manufacturer Lamborghini. In keeping with Lamborghini tradition, the Aventador is named after a fighting bull.</p>
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/image3.jpg" class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Ferrari 488</h5>
+                        <p class="card-text">The Ferrari 488 is a mid-engine sports car produced by the Italian automobile manufacturer Ferrari. The car is an update to the 458 with notable exterior and performance changes.</p>
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/image4.jpg" class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Porsche 911</h5>
+                        <p class="card-text">The Porsche 911 is a two-door, 2+2 high-performance rear-engined sports car. It has a distinctive design, rear-engine layout, and iconic round headlights. It has undergone continuous development since its introduction.</p>
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/image5.jpg" class="card-img-top" alt="..." style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">McLaren 720S</h5>
+                        <p class="card-text">The McLaren 720S is a British sports car designed and manufactured by McLaren Automotive. It is the second all-new car in the McLaren Super Series, replacing the 650S beginning in May 2017.</p>
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading car rental agency dedicated to providing excellent service and a wide selection of
+                vehicles to choose from. Our team is committed to ensuring that every customer has a seamless rental
+                experience.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Car Rental System</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
